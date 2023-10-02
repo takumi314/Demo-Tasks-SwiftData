@@ -15,6 +15,9 @@
 		E1567A9E2ACB0DE500926816 /* Demo_Tasks_SwiftDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567A9D2ACB0DE500926816 /* Demo_Tasks_SwiftDataUITestsLaunchTests.swift */; };
 		E1567AB32ACB109A00926816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1567AB02ACB109A00926816 /* Assets.xcassets */; };
 		E1567AB42ACB109A00926816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1567AB22ACB109A00926816 /* Preview Assets.xcassets */; };
+		E1567AB62ACB125E00926816 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567AB52ACB125E00926816 /* Task.swift */; };
+		E1567AB82ACB137600926816 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567AB72ACB137600926816 /* TaskListView.swift */; };
+		E1567ABC2ACB15D300926816 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567ABB2ACB15D300926816 /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E1567A7B2ACB0DE400926816 /* Demo-Tasks-SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo-Tasks-SwiftData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1567A7B2ACB0DE400926816 /* Tasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1567A7E2ACB0DE400926816 /* Demo_Tasks_SwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Tasks_SwiftDataApp.swift; sourceTree = "<group>"; };
 		E1567A802ACB0DE400926816 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1567A822ACB0DE400926816 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		E1567A9D2ACB0DE500926816 /* Demo_Tasks_SwiftDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_Tasks_SwiftDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1567AB02ACB109A00926816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1567AB22ACB109A00926816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1567AB52ACB125E00926816 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E1567AB72ACB137600926816 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		E1567ABB2ACB15D300926816 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,7 @@
 		E1567A7C2ACB0DE400926816 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1567A7B2ACB0DE400926816 /* Demo-Tasks-SwiftData.app */,
+				E1567A7B2ACB0DE400926816 /* Tasks.app */,
 				E1567A8D2ACB0DE500926816 /* Demo-Tasks-SwiftDataTests.xctest */,
 				E1567A972ACB0DE500926816 /* Demo-Tasks-SwiftDataUITests.xctest */,
 			);
@@ -123,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				E1567A822ACB0DE400926816 /* Item.swift */,
+				E1567AB52ACB125E00926816 /* Task.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				E1567A802ACB0DE400926816 /* ContentView.swift */,
+				E1567AB72ACB137600926816 /* TaskListView.swift */,
+				E1567ABB2ACB15D300926816 /* NewTaskView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,7 +196,7 @@
 			);
 			name = "Demo-Tasks-SwiftData";
 			productName = "Demo-Tasks-SwiftData";
-			productReference = E1567A7B2ACB0DE400926816 /* Demo-Tasks-SwiftData.app */;
+			productReference = E1567A7B2ACB0DE400926816 /* Tasks.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E1567A8C2ACB0DE500926816 /* Demo-Tasks-SwiftDataTests */ = {
@@ -300,7 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1567AB62ACB125E00926816 /* Task.swift in Sources */,
 				E1567A812ACB0DE400926816 /* ContentView.swift in Sources */,
+				E1567ABC2ACB15D300926816 /* NewTaskView.swift in Sources */,
+				E1567AB82ACB137600926816 /* TaskListView.swift in Sources */,
 				E1567A832ACB0DE400926816 /* Item.swift in Sources */,
 				E1567A7F2ACB0DE400926816 /* Demo_Tasks_SwiftDataApp.swift in Sources */,
 			);
@@ -481,7 +493,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takumi314.Demo-Tasks-SwiftData";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tasks;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -514,7 +526,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.takumi314.Demo-Tasks-SwiftData";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Tasks;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
