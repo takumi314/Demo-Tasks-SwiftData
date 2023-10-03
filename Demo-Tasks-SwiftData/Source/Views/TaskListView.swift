@@ -19,15 +19,12 @@ struct TaskListView: View {
         NavigationSplitView {
             List {
                 ForEach(tasks) { task in
-                    NavigationLink(destination: EmptyView()) {
+                    NavigationLink(destination: TaskDetailView(task: task)) {
                         Text("Title: \(task.title)")
                     }
                 }
             }
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
                 ToolbarItem {
                     Button {
                         isNewTask.toggle()
