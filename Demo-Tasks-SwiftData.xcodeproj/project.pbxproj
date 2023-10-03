@@ -18,6 +18,7 @@
 		E1567AB62ACB125E00926816 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567AB52ACB125E00926816 /* Task.swift */; };
 		E1567AB82ACB137600926816 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567AB72ACB137600926816 /* TaskListView.swift */; };
 		E1567ABC2ACB15D300926816 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567ABB2ACB15D300926816 /* NewTaskView.swift */; };
+		E1567ABE2ACC486100926816 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1567ABD2ACC486100926816 /* TaskDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E1567AB52ACB125E00926816 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		E1567AB72ACB137600926816 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		E1567ABB2ACB15D300926816 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		E1567ABD2ACC486100926816 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				E1567A802ACB0DE400926816 /* ContentView.swift */,
 				E1567AB72ACB137600926816 /* TaskListView.swift */,
 				E1567ABB2ACB15D300926816 /* NewTaskView.swift */,
+				E1567ABD2ACC486100926816 /* TaskDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1567ABE2ACC486100926816 /* TaskDetailView.swift in Sources */,
 				E1567AB62ACB125E00926816 /* Task.swift in Sources */,
 				E1567A812ACB0DE400926816 /* ContentView.swift in Sources */,
 				E1567ABC2ACB15D300926816 /* NewTaskView.swift in Sources */,
